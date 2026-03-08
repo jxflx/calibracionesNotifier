@@ -3,8 +3,8 @@ import pandas as pd
 
 def procesar_calibraciones_excel(ruta_archivo_xlsx):
     columnas_requeridas = [
-        'device FunctionId',
-        'position Id',
+        'deviceFunctionId',
+        'positionId',
         'calibrationPeriodUnit',
         'calibrationPeriodDisplayValue',
         'calibrationDueDate'
