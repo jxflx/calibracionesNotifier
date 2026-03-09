@@ -1,6 +1,7 @@
 from parser import procesar_calibraciones_excel
 from dbmanager import inicializar_db_y_guardar
 from eventGetter import extraer_alertas_pendientes
+from formatter import formatter
 
 if __name__ == '__main__':
     prueba = procesar_calibraciones_excel("input/excel2.xlsx")
@@ -12,4 +13,8 @@ if __name__ == '__main__':
     inicializar_db_y_guardar(prueba)
     df_pendientes = extraer_alertas_pendientes()
     print('ALERTAS PENDIENTES:')
-    print(df_pendientes.head())
+    print(df_pendientes)
+
+    print('PENDIENTES SEPARADOS')
+    formatter(df_pendientes)
+
