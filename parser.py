@@ -1,4 +1,6 @@
 import pandas as pd
+import os
+import glob
 
 
 def procesar_calibraciones_excel(ruta_archivo_xlsx):
@@ -32,9 +34,18 @@ def procesar_calibraciones_excel(ruta_archivo_xlsx):
     df_errores = df[mask_errores]
 
     if not df_errores.empty:
-        print(f"ADVERTENCIA: Se omitirán {len(df_errores)} filas con datos faltantes o inválidos. Sus devide FunctionId son:")
-        print(df_errores['device FunctionId'])
+        print(f"ADVERTENCIA: Se omitirán {len(df_errores)} filas con datos faltantes o inválidos. Sus deviceFunctionId son:")
+        print(df_errores['deviceFunctionId'])
 
     df_limpio = df[~mask_errores].copy()
 
     return df_limpio
+
+
+def buscar_ultimo_excel(directorio="input"):
+    archivos = glob.glob(os.path.join(directorio, "*.xlsx"))
+    if not archivos:
+        return None
+
+    # Retorna el archivo con la fecha de modificación más reciente
+    return max(archivos, key=os.path.getmtime)

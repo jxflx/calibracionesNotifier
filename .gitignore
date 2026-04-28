@@ -215,7 +215,14 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-*.csv
-*.xlsx
+# Permitir la base de datos para persistencia en GitHub Actions
+!calibraciones.db
 
-*.db
+# Permitir la carpeta de entrada y los archivos excel dentro de ella
+!input/
+!input/*.xlsx
+
+# Ignorar archivos temporales de SQLite
+*.db-journal
+*.db-shm
+*.db-wal
