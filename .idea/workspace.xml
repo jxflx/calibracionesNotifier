@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5ff5edc-3b51-4a29-9e2e-6c3a859e3564" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formatter.py" beforeDir="false" afterPath="$PROJECT_DIR$/formatter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/notifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser.py" afterDir="false" />
-    </list>
+    <list default="true" id="e5ff5edc-3b51-4a29-9e2e-6c3a859e3564" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "jxflx"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jxflx/calibracionesNotifier.git&quot;,
+    &quot;accountId&quot;: &quot;46213f5e-fd3a-4325-beff-90d5fc532d49&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/eventGetter.py" root0="SKIP_INSPECTION" />
   </component>
@@ -106,7 +111,7 @@
       <workItem from="1773029188127" duration="4000" />
       <workItem from="1773535480974" duration="857000" />
       <workItem from="1774101957540" duration="3264000" />
-      <workItem from="1777397219658" duration="2039000" />
+      <workItem from="1777397219658" duration="2373000" />
     </task>
     <servers />
   </component>
